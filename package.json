@@ -1,0 +1,30 @@
+{
+  "name": "weather-package",
+  "main": "./lib/weather-package",
+  "version": "0.2.0",
+  "description": "Shows weather, temperature and pressure right in your editor.",
+  "activationEvents": [
+    "weather-package:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gladimdim/weather-package"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# weather-package package\n\nThis package allows you to check weather right in your editor.\nStatus bar shows current condition outside, temperature and pressure:\n\n![](https://lh6.googleusercontent.com/-iYXP--vAhsw/UzsTbjvo9gI/AAAAAAAA-to/O3ne5I_qRao/s781/Screen%2520Shot%25202014-04-01%2520at%252010.26.55%2520PM.png)\n\nUse shortcut 'ctrl-alt-o' to toggle display of weather.\n\nUse settings to set your home town and units of measure. By default all units are metric:\n![](https://lh4.googleusercontent.com/-_cWAmTvl_UY/UzsTiJ_s8QI/AAAAAAAA-tw/ugFTxPVnOcs/s720/Screen%2520Shot%25202014-04-01%2520at%252010.28.54%2520PM.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gladimdim/weather-package/issues"
+  },
+  "homepage": "https://github.com/gladimdim/weather-package",
+  "_id": "weather-package@0.1.0",
+  "dist": {
+    "shasum": "38ed74e7e625f9386792677dc2254c19a2e3929d"
+  },
+  "_resolved": "/var/folders/4y/717_9wnn6hn3ylzynpz44ndhlrw4x9/T/d-114414-57253-1dw3oea/package.tgz",
+  "_from": "/var/folders/4y/717_9wnn6hn3ylzynpz44ndhlrw4x9/T/d-114414-57253-1dw3oea/package.tgz"
+}
