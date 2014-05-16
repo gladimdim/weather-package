@@ -54,7 +54,7 @@ module.exports =
                 constr.unitPress = "mmHg"
                 constr.correctPress = 1.33
             if not this.interval
-                view.interval = setInterval (=> @getData(view, constr, city)), 10000
+                view.interval = setInterval (=> @getData(view, constr, city)), 1800000
             @getData(view, constr, city)
 
         getData: (view, constr, city)->
