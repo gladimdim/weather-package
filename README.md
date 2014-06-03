@@ -12,3 +12,5 @@ Use shortcut 'ctrl-alt-o' to toggle display of weather.
 Use settings to set your home town and units of measure.
 Run plugin at least once to see its settings.
 ![](https://lh3.googleusercontent.com/-A72pR7cI6tE/U3pd5oGqcLI/AAAAAAAA_zk/ac-KIG22Bqk/s411/Screen%2520Shot%25202014-05-19%2520at%252010.38.33%2520PM.png)
+
+All weather info is provided by www.openweathermap.org. 
