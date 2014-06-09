@@ -1,13 +1,13 @@
 # weather-package package
 
 This package allows you to check weather right in your editor.
-A small popover window shows current condition outside, temperature and pressure:
+Plugin shows in status bar current condition outside, temperature and pressure:
 
 ![](https://lh6.googleusercontent.com/-KusI4Ea8oLM/U3SgQmcPYII/AAAAAAAA_u0/-ChIwc32Dus/s417/Screen%2520Shot%25202014-05-15%2520at%25202.07.34%2520PM%25201.png)
 
 It is possible to switch off showing temperature and pressure.
 
-Use shortcut 'ctrl-alt-o' to toggle display of weather.
+Use shortcut 'ctrl-alt-o' (cmd-option-o) to toggle display of weather.
 
 Use settings to set your home town and units of measure.
 Run plugin at least once to see its settings.
