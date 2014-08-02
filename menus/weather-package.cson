@@ -1,12 +1,2 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'weather-package'
-      'submenu': [
-        { 'label': 'Toggle', 'command': 'weather-package:toggle' }
-      ]
-    ]
-  }
-]
+
