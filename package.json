@@ -1,7 +1,7 @@
 {
   "name": "weather-package",
   "main": "./lib/weather-package",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Shows weather, temperature and pressure right in your editor.",
   "activationEvents": [
     "weather-package:toggle"
@@ -11,5 +11,7 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {"atom-space-pen-views": "^2.0.3"}
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
 }
