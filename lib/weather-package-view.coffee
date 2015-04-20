@@ -1,4 +1,4 @@
-{View} = require 'atom'
+{View} = require 'atom-space-pen-views'
 {ConfigObserver} = require 'atom'
 
 module.exports =
@@ -11,7 +11,8 @@ module.exports =
         @span "", class: "pressure", id: "pressure"
 
     initialize: (serializeState) ->
-      atom.workspaceView.command "weather-package:toggle", => @toggle()
+      atom.commands.add "atom-workspace",
+        "weather-package:toggle", => @toggle()
       atom.config.setDefaults("weather-package", city: "Kiev")
       atom.config.setDefaults("weather-package", refreshIntervalInMinutes: 30)
 
